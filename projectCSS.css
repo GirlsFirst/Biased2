@@ -1,3 +1,7 @@
+body {
+  background-color:#00F6FF;
+}
+
 .column {
   float: left;
   width: 25%;
@@ -8,4 +12,8 @@
   content: "";
   display: table;
   clear: both;
+}
+
+#header{
+  padding: 5px;
 }
