@@ -2,7 +2,17 @@
 <div class="container">
  <button class="btn"><img src="old.jpg" alt="Snow" width="200" height="222" onclick="myFunction1()"></button>
  <button class="btn"><img src="young.jpg" alt="Snow" width="200" height="222" onclick="myFunction2()"></button>
+ <p id="demo" onclick="myFunction1()"></p>
+ <p id="demo" onclick="myFunction2()"></p>
+ <script>
+ function myFunction1() {
+ document.getElementById("demo").innerHTML = "You Killed the young lady";
+ }
+ function myFunction2() {
+ document.getElementById("demo").innerHTML = "You killed the older lady";
 
+ }
+ </script>
  <div class="container">
   <button class="btn"><a href="file:///C:/Users/Prudential/Desktop/Final_Project/game3.html">Next</a></button>
  </div>
